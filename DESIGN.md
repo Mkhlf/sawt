@@ -379,3 +379,17 @@ python tests/run_eval.py --all --verbose
 ```
 
 **Output**: Reports saved to `tests/logs/` (Markdown + JSON).
+
+---
+
+## 8. Known Limitations
+
+| Limitation | Impact | Mitigation |
+|---|---|---|
+| **LLM occasionally skips tool calls** | Agent may respond without calling required tool | Prompts include explicit "MUST call X" rules |
+| **Long conversations hit truncation** | Early context lost after ~10+ turns | SESSION_STATE preserves critical data |
+| **Complex multi-item orders** | Adding 5+ items at once may miss some | Agent processes sequentially; user adds more |
+| **Handoff timing** | May hand off before collecting all info | Filters inject pending items for next agent |
+| **Handoff ends turn early** | Agent hands off but also ends turn, so next agent doesn't run | User sends another message to trigger continuation |
+
+
