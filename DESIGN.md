@@ -1,5 +1,7 @@
 # Design Document: Arabic Restaurant Ordering Agent
 
+> Check the `docs/DESIGN_Original.md` as it contains the deisgn document generated after discussing most of the details with Opus 4.5 to implement this agent - it has more details, but not quite the same as what was eventually implmented. 
+
 ## 1. Architecture Overview
 
 ### 1.1 Agent Flow Diagram
