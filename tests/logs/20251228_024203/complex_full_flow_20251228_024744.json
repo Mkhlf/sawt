@@ -1,0 +1,171 @@
+{
+  "scenario": {
+    "scenario_id": "complex_full_flow",
+    "scenario_name": "Terminal: Complex order with modifications and mod",
+    "messages": [
+      {
+        "role": "user",
+        "content": "هلا، أبغى أسوي طلب استلام من الفرع لو سمحت. تم؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:32.825399"
+      },
+      {
+        "role": "assistant",
+        "content": "تفضل، نبدأ في طلبك للاستلام. وش تبي تطلب من قائمة الطعام؟‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:32.825454"
+      },
+      {
+        "role": "user",
+        "content": "أبي واحد برجر دجاج، واثنين شاورما صاروخ، وأربعة شاهي كرك لو سمحت. تم؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:46.069482"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة برجر دجاج مشوي للطلب! - 1 برجر دجاج مشوي - 43 ريال بالنسبة للشاورما، عندي خيارين لك: - شاورما دجاج بـ25 ريال - شاورما لحم بـ30 ريال أما شاي كرك عندنا: - شاي كرك صغير بـ9 ريال - شاي كرك وسط بـ13 ريال - شاي كرك كبير بـ16 ريال أي نوع تفضل من الشاورما وكم عدد الشاي الكرك اللي تبيه؟ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:46.069510"
+      },
+      {
+        "role": "user",
+        "content": "عطني شاورما دجاج، والكرك خله اثنين بس وضيف لي بيتزا خضار وسط. تدري؟ غيرت رأيي خل الطلب توصيل للبيت.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:57.108945"
+      },
+      {
+        "role": "assistant",
+        "content": "وين موقعك؟ بأي حي ساكن؟‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:46:57.109016"
+      },
+      {
+        "role": "user",
+        "content": "أنا في حي الياسمين، شارع القلعة. بس تدري وشو؟ التوصيل بياخذ وقت وغالي، كنسل التوصيل ورجعه استلام من الفرع أزين لي. وقبل ما تحسب، ضيف واحد حمص وشيل الشاورما ما أبيها خلاص.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:02.620862"
+      },
+      {
+        "role": "assistant",
+        "content": "كيف أقدر أساعدك في طلبك؟ حاليًا عندك برجر دجاج مشوي في السلة بـ43 ريال. تبغى تضيف شي ثاني؟‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:02.620957"
+      },
+      {
+        "role": "user",
+        "content": "إيه، أضف لي بيتزا خضار وسط، واثنين شاهي كرك، وواحد حمص مثل ما قلت لك.. كذا تمام، كم الحساب عشان أجي أستلمه؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:17.275760"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة حمص للطلب! ✨ بالنسبة لبيتزا الخضار: - بيتزا لحم بالجبن بـ45 ريال - بيتزا دجاج بـ42 ريال - بيتزا مارغريتا بـ35 ريال أما لشاي الكرك: - شاي كرك صغير بـ9 ريال - شاي كرك وسط بـ13 ريال - شاي كرك كبير بـ16 ريال أي بيتزا تفضل وكم عدد الشاي الكرك اللي تبيه؟ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:17.276189"
+      },
+      {
+        "role": "user",
+        "content": "أبي بيتزا الخضار العادية، والشاهي خله اثنين وسط.. كذا الطلب تمام، عطني المجموع عشان أحرك لكم.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:27.918364"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة 2 شاي كرك وسط للطلب! ✅ طلبك الحالي: 1. 1 برجر دجاج مشوي - 43 ريال 2. 1 حمص - 18 ريال 3. 2 شاي كرك وسط - 26 ريال المجموع: 87 ريال وبالنسبة لبيتزا الخضار، عندنا الخيارات التالية: - بيتزا دجاج بـ 42 ريال - بيتزا مارغريتا بـ 35 ريال - بيتزا لحم بالجبن بـ 45 ريال أي نوع تفضل للبيتزا؟ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:27.918388"
+      },
+      {
+        "role": "user",
+        "content": "خلاص عطني المارغريتا، كذا الطلب كامل استلام من الفرع.. تمام شكراً.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:33.637643"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة بيتزا مارغريتا للطلب! ✅ طلبك الحالي: 1. 1 برجر دجاج مشوي - 43 ريال 2. 1 حمص - 18 ريال 3. 2 شاي كرك وسط - 26 ريال 4. 1 بيتزا مارغريتا - 35 ريال المجموع: 122 ريال الطلب للاستلام من الفرع. تمام شكراً لك! 🍕تقدر تجي تستلمه في أي وقت. 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:33.637753"
+      },
+      {
+        "role": "user",
+        "content": "خلاص تمام، عشر دقايق وأنا عندكم. شكراً.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:36.906827"
+      },
+      {
+        "role": "assistant",
+        "content": "خلاص، نشوفك بعد عشر دقايق! شكراً لك ونتطلع إلى خدمتك. إذا في أي شيء ثاني، لا تتردد في التواصل معنا. 😊‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:36.906845"
+      },
+      {
+        "role": "user",
+        "content": "خلاص يعطيك العافية، مع السلامة.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:41.002972"
+      },
+      {
+        "role": "assistant",
+        "content": "ممكن تخبرني باسمك ورقم جوالك عشان أكمل تأكيد الطلب؟‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:47:41.003001"
+      }
+    ],
+    "final_order": {
+      "items": [
+        {
+          "name_ar": "item",
+          "quantity": 1
+        },
+        {
+          "name_ar": "item",
+          "quantity": 1
+        },
+        {
+          "name_ar": "item",
+          "quantity": 1
+        },
+        {
+          "name_ar": "item",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0,
+      "delivery_fee": 0,
+      "total": 0
+    },
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "pickup",
+      "district": null,
+      "order_items_count": 4,
+      "order_confirmed": false
+    },
+    "duration_ms": 82366,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "complex_full_flow",
+    "scenario_name": "Terminal: Complex order with modifications and mod",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 7,
+          "efficiency": 5,
+          "correctness": 6,
+          "arabic_quality": 8,
+          "error_handling": 5,
+          "comments": "The task was partially completed as the order was finalized for pickup, but the AI did not confirm the customer's name and phone number, leaving the order unconfirmed. Efficiency was lacking due to repeated requests for pizza options and unnecessary confirmations. Correctness was moderate; while the final order was mostly correct, the AI initially failed to remove the shawarma and did not confirm the correct pizza type until the end. Arabic quality was good, with natural and professional language, though it could have been more concise. Error handling was weak as the AI struggled to adapt to changes in the order and did not effectively manage the switch between delivery and pickup modes."
+        },
+        "average_score": 6.2,
+        "raw_response": "```json\n{\n  \"task_completion\": 7,\n  \"efficiency\": 5,\n  \"correctness\": 6,\n  \"arabic_quality\": 8,\n  \"error_handling\": 5,\n  \"comments\": \"The task was partially completed as the order was finalized for pickup, but the AI did not confirm the customer's name and phone number, leaving the order unconfirmed. Efficiency was lacking due to repeated requests for pizza options and unnecessary confirmations. Correctness was moderate; while the final order was mostly correct, the AI initially failed to remove the shawarma and did not confirm the correct pizza type until the end. Arabic quality was good, with natural and professional language, though it could have been more concise. Error handling was weak as the AI struggled to adapt to changes in the order and did not effectively manage the switch between delivery and pickup modes.\"\n}\n```",
+        "timestamp": "2025-12-28T02:47:44.057726"
+      }
+    ],
+    "average_score": 6.2
+  }
+}

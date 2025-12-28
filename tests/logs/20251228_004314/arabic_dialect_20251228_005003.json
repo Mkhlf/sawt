@@ -1,0 +1,240 @@
+{
+  "scenario": {
+    "scenario_id": "arabic_dialect",
+    "scenario_name": "Terminal: Test dialect understanding with Saudi sl",
+    "messages": [
+      {
+        "role": "user",
+        "content": "هلا والله، وش عندكم؟ عطني المنيو بالله بشوف وش أطلب.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:23.205497"
+      },
+      {
+        "role": "assistant",
+        "content": "حياك الله! عندنا منيو متنوع يشمل أطباق لذيذة مثل: - كبسة لحم - شاورما - برجر - بيتزا - مشاوي إذا حاب تطلب شي، خبرني وانا في الخدمة! 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:23.205540"
+      },
+      {
+        "role": "user",
+        "content": "أبي ثنين شاورما دجاج كثر الثوم بالله، وواحد برجر لحم \"سبيشل\" وجبنة زيادة. كم الحساب؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:29.068656"
+      },
+      {
+        "role": "assistant",
+        "content": "أهلاً وسهلاً! طلبك واضح 👍 - شاورما دجاج: ٢ - برجر لحم سبيشل: ١ تبي توصيل ولا استلام؟ 👤",
+        "tool_calls": [
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:29.068517"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:29.068557"
+          }
+        ],
+        "timestamp": "2025-12-28T00:49:29.068665"
+      },
+      {
+        "role": "user",
+        "content": "استلام يا غالي، وعطني الحساب بسرعة لاهنت عشان بمركم الحين. كم يطلع المجموع؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:44.031811"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة 2 شاورما دجاج للطلب! بالنسبة للبرجر لحم، عندنا الخيارات التالية: - برجر لحم كلاسيكي بـ52 ريال - برجر لحم بالجبن بـ54 ريال - برجر نباتي بـ49 ريال أي واحد تبي؟ 🔄 جاري تحويل المحادثة... 00:49:40 [INFO] [ROUTING] Message → order agent 00:49:41 [INFO] [TOOL END] search_menu (0ms) 00:49:42 [INFO] [TOOL END] store_offered_items (0ms) 00:49:44 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 3652ms عندنا خيارات مشابهة لـ\"برجر لحم سبيشل\": - برجر لحم كلاسيكي بـ52 ريال - برجر لحم بالجبن بـ54 ريال - برجر نباتي بـ49 ريال أي واحد تبي؟ 👤",
+        "tool_calls": [
+          {
+            "name": "set_order_mode",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031605"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031630"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031636"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031652"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031659"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031670"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031676"
+          },
+          {
+            "name": "get_current_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031683"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031721"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:44.031730"
+          }
+        ],
+        "timestamp": "2025-12-28T00:49:44.031818"
+      },
+      {
+        "role": "user",
+        "content": "خلاص عطني برجر لحم بالجبن، ويلا عطني المجموع وخلصني.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:48.149077"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة 1 برجر لحم بالجبن للطلب ✓ طلبك الحالي: 1. 2 شاورما دجاج - 50 ريال (كثر الثوم) 2. 1 برجر لحم بالجبن - 47 ريال المجموع: 97 ريال إذا ودك تغير شيء أو تضيف أي شي ثاني، خبرني! 👤",
+        "tool_calls": [
+          {
+            "name": "select_from_offered",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:48.148903"
+          },
+          {
+            "name": "get_current_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:48.148978"
+          }
+        ],
+        "timestamp": "2025-12-28T00:49:48.149112"
+      },
+      {
+        "role": "user",
+        "content": "خلاص تمام، سجل الرقم عندك: خمسه خمسه واحد صفر تسعه ثمانيه سبعه. متى يخلص الطلب؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:53.996913"
+      },
+      {
+        "role": "assistant",
+        "content": "عشان أقدر أأكد الطلب، ممكن تزوّدني باسمك لو سمحت؟‬ 🔄 جاري تحويل المحادثة... 00:49:51 [INFO] [ROUTING] Message → checkout agent 00:49:52 [INFO] [TOOL END] set_customer_info (0ms) 00:49:53 [INFO] [TURN COMPLETE] Agent: checkout_agent, Duration: 2325ms عشان نأكد طلبك، ممكن لو تزوّدني باسمك الكريم؟‬ 👤",
+        "tool_calls": [
+          {
+            "name": "set_phone_number",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:53.996738"
+          },
+          {
+            "name": "set_customer_info",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:53.996815"
+          }
+        ],
+        "timestamp": "2025-12-28T00:49:53.996923"
+      },
+      {
+        "role": "user",
+        "content": "سجل عندك \"أبو فهد\"، ويلا بالله عجّل علي عشر دقايق وأنا عندكم. تمام شكراً.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:49:58.937619"
+      },
+      {
+        "role": "assistant",
+        "content": "تم تأكيد طلبك بنجاح يا أبو فهد! 🎉 - رقم الطلب: ORD-20251228-B64B - الإجمالي: 97 ريال - الاستلام من الفرع - الوقت المتوقع: 15-20 دقيقة شكراً لطلبك من البيت العربي! 🏠 إذا تحتاج أي تعديل أو إلغاء، تقدر تتواصل معنا على 920001234. 👤",
+        "tool_calls": [
+          {
+            "name": "set_customer_info",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:58.937486"
+          },
+          {
+            "name": "confirm_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:49:58.937513"
+          }
+        ],
+        "timestamp": "2025-12-28T00:49:58.937627"
+      }
+    ],
+    "final_order": {
+      "items": [
+        {
+          "name_ar": "item",
+          "quantity": 1
+        },
+        {
+          "name_ar": "item",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0,
+      "delivery_fee": 0,
+      "total": 0
+    },
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "pickup",
+      "district": null,
+      "order_items_count": 2,
+      "order_confirmed": true
+    },
+    "duration_ms": 48271,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "arabic_dialect",
+    "scenario_name": "Terminal: Test dialect understanding with Saudi sl",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 7,
+          "efficiency": 5,
+          "correctness": 6,
+          "arabic_quality": 8,
+          "error_handling": 6,
+          "comments": "The AI successfully completed the order, but there were issues with efficiency and correctness. The AI initially failed to recognize the 'برجر لحم سبيشل' and needed multiple tool calls to resolve this, leading to inefficiency. The final prices listed were incorrect as the burger was stated to be 54 SAR but was charged at 47 SAR. The Arabic was generally fluent and appropriate, with a friendly tone. Error handling was adequate, as the AI provided alternatives when the 'سبيشل' burger was not recognized, but it could have been more streamlined. Overall, the AI could improve in efficiency and accuracy in item handling."
+        },
+        "average_score": 6.4,
+        "raw_response": "```json\n{\n  \"task_completion\": 7,\n  \"efficiency\": 5,\n  \"correctness\": 6,\n  \"arabic_quality\": 8,\n  \"error_handling\": 6,\n  \"comments\": \"The AI successfully completed the order, but there were issues with efficiency and correctness. The AI initially failed to recognize the 'برجر لحم سبيشل' and needed multiple tool calls to resolve this, leading to inefficiency. The final prices listed were incorrect as the burger was stated to be 54 SAR but was charged at 47 SAR. The Arabic was generally fluent and appropriate, with a friendly tone. Error handling was adequate, as the AI provided alternatives when the 'سبيشل' burger was not recognized, but it could have been more streamlined. Overall, the AI could improve in efficiency and accuracy in item handling.\"\n}\n```",
+        "timestamp": "2025-12-28T00:50:03.801673"
+      }
+    ],
+    "average_score": 6.4
+  }
+}

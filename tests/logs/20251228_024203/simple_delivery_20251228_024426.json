@@ -1,0 +1,111 @@
+{
+  "scenario": {
+    "scenario_id": "simple_delivery",
+    "scenario_name": "Terminal: Order a burger for delivery to النرجس di",
+    "messages": [
+      {
+        "role": "user",
+        "content": "هلا والله، أبغى أطلب برجر لحم توصيل لحي النرجس لو سمحت.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:43:50.802675"
+      },
+      {
+        "role": "assistant",
+        "content": "تمام! التوصيل لحي النرجس متاح. الرسوم: 15 ريال، والوقت المتوقع للتوصيل: 30-45 دقيقة. وش اسم الشارع ورقم المبنى؟ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:43:50.802812"
+      },
+      {
+        "role": "user",
+        "content": "شارع عثمان بن عفان، رقم المبنى ٤٥٢٠ الله يعافيك. وين أقدر أأكد الطلب؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:00.845681"
+      },
+      {
+        "role": "assistant",
+        "content": "عندنا عدة أصناف لـ\"برجر لحم\"، تفضل: 1. برجر لحم بالجبن - 47 ريال 2. برجر لحم كلاسيكي - 45 ريال 3. برجر نباتي - 42 ريال 4. برجر دجاج مشوي - 43 ريال أي نوع تبي؟ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:00.845763"
+      },
+      {
+        "role": "user",
+        "content": "أبي برجر لحم كلاسيكي، كثر الصوص بالله. كذا تمام؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:09.126151"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة برجر لحم كلاسيكي واحد (وسط) مع كثر الصوص للطلب. طلبك الحالي: 1. برجر لحم كلاسيكي وسط - 45 ريال (كثر الصوص) المجموع: 45 ريال إذا تبي تضيف شيء ثاني، خبرني! 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:09.126208"
+      },
+      {
+        "role": "user",
+        "content": "لا كذا تمام، اعتمد الطلب الله يخليك. شكراً لكم.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:12.979607"
+      },
+      {
+        "role": "assistant",
+        "content": "أولاً، قبل تأكيد الطلب، نحتاج إلى استكمال بعض المعلومات. ممكن أعرف اسمك ورقم جوالك؟‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:12.979629"
+      },
+      {
+        "role": "user",
+        "content": "أبشر، معك خالد ورقمي 0551234567. اعتمد الطلب الله يبارك فيك.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:19.269869"
+      },
+      {
+        "role": "assistant",
+        "content": "تم تأكيد طلبك بنجاح! 🎉 👤 خالد 📱 0551234567 رقم الطلب: ORD-20251228-1AA1 الإجمالي: 60 ريال التوصيل: حي النرجس العنوان: شارع عثمان بن عفان، رقم المبنى ٤٥٢٠ الوقت المتوقع: 30-45 دقيقة ⚠️ لأي تعديل أو إلغاء، اتصل على: 920001234 شكراً لطلبك من البيت العربي! 🏠 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T02:44:19.269893"
+      }
+    ],
+    "final_order": {
+      "items": [
+        {
+          "name_ar": "item",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0,
+      "delivery_fee": 0,
+      "total": 0
+    },
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "delivery",
+      "district": null,
+      "order_items_count": 1,
+      "order_confirmed": true
+    },
+    "duration_ms": 47723,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "simple_delivery",
+    "scenario_name": "Terminal: Order a burger for delivery to النرجس di",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 9,
+          "efficiency": 8,
+          "correctness": 7,
+          "arabic_quality": 9,
+          "error_handling": 8,
+          "comments": "The task was mostly completed successfully, with the order confirmed and delivery details collected. However, the final session state did not retain the customer's name or phone number, which is a critical issue for delivery orders. The AI efficiently processed the order with minimal unnecessary steps, but it could have confirmed the total price earlier. The correctness score is lower due to the discrepancy in the final session state and the total price not being updated correctly (should be 60, but only 45 was mentioned). The Arabic used was natural, friendly, and professional, with appropriate use of Gulf dialect. Error handling was good, as the AI managed to confirm the order and address details effectively, but it should have ensured all customer details were retained in the final session state."
+        },
+        "average_score": 8.2,
+        "raw_response": "```json\n{\n  \"task_completion\": 9,\n  \"efficiency\": 8,\n  \"correctness\": 7,\n  \"arabic_quality\": 9,\n  \"error_handling\": 8,\n  \"comments\": \"The task was mostly completed successfully, with the order confirmed and delivery details collected. However, the final session state did not retain the customer's name or phone number, which is a critical issue for delivery orders. The AI efficiently processed the order with minimal unnecessary steps, but it could have confirmed the total price earlier. The correctness score is lower due to the discrepancy in the final session state and the total price not being updated correctly (should be 60, but only 45 was mentioned). The Arabic used was natural, friendly, and professional, with appropriate use of Gulf dialect. Error handling was good, as the AI managed to confirm the order and address details effectively, but it should have ensured all customer details were retained in the final session state.\"\n}\n```",
+        "timestamp": "2025-12-28T02:44:26.360231"
+      }
+    ],
+    "average_score": 8.2
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "scenario": {
+    "scenario_id": "empty_order_prevention",
+    "scenario_name": "Terminal: Try to confirm order before adding items",
+    "messages": [
+      {
+        "role": "user",
+        "content": "أبي طلب سفري، تمام اعتمد الطلب وخلصني.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:54:49.913153"
+      },
+      {
+        "role": "assistant",
+        "content": "خليني أول شي أضيف طلبك. إذا كان عندك أي طلبات محددة تبي تضيفها، ممكن تخبرني عشان أضيفها للطلب؟‬ 🔄 جاري تحويل المحادثة... 00:54:47 [INFO] [ROUTING] Message → order agent 00:54:48 [INFO] [TOOL END] clear_pending_orders (0ms) 00:54:49 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 1976ms عندك رغبة في طلبات معينة تبي أضيفها للطلب؟ إذا كان الطلب جاهز، بلغني عشان ننهيه.‬ 👤",
+        "tool_calls": [
+          {
+            "name": "set_order_mode",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:54:49.912983"
+          },
+          {
+            "name": "clear_pending_orders",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:54:49.913080"
+          }
+        ],
+        "timestamp": "2025-12-28T00:54:49.913159"
+      },
+      {
+        "role": "user",
+        "content": "ياخي خلصنا اعتمد الطلب بسرعة ما يحتاج نضيع وقت!",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:00.332331"
+      },
+      {
+        "role": "assistant",
+        "content": "الطلب الحالي فارغ حالياً وما في أي أصناف. وش تبي تطلب عشان أساعدك؟‬ 🔄 جاري تحويل المحادثة... 00:54:54 [INFO] [ROUTING] Message → checkout agent 00:54:57 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 2563ms أخوي، عشان أقدر أساعدك ونخلص بسرعة، بس بلغني وش الأصناف والعدد اللي تبي تضيفها للطلب، وأنا بأضبط كل شي لك إن شاء الله. إذا عندك اختيارات محددة أو تفاصيل إضافية، عطيني خبر!‬ 🔄 جاري تحويل المحادثة... 00:54:57 [INFO] [ROUTING] Message → order agent 00:54:58 [INFO] [TOOL END] get_pending_items (0ms) 00:55:00 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 3032ms الطلب فارغ حالياً، نحتاج نضيف الأصناف اللي تبيها عشان أقدر أساعدك. إذا كان عندك رغبة في أي أصناف أو أطباق معينة مثل البرجر، البيتزا، أو أي شي ثاني، بلغني وأنا بأضيفها فوراً. إذا كنت جاهز، خبرني بالضبط وش تبي أضيف للطلب.‬ 👤",
+        "tool_calls": [
+          {
+            "name": "clear_pending_orders",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:00.332125"
+          },
+          {
+            "name": "get_pending_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:00.332229"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:00.332338"
+      },
+      {
+        "role": "user",
+        "content": "أوف.. طيب حط لي واحد برجر لحم وخلصنا، اعتمد الطلب الحين",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:07.452172"
+      },
+      {
+        "role": "assistant",
+        "content": "عندنا نوعين من برجر اللحم: - برجر لحم بالجبن: صغير بـ40 ريال، وسط بـ47 ريال، كبير بـ54 ريال. - برجر لحم كلاسيكي: صغير بـ38 ريال، وسط بـ45 ريال، كبير بـ52 ريال. وش تبي تختار من هالأنواع؟ إذا تبي أي حجم محدد بلغني. 👤",
+        "tool_calls": [
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:07.452014"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:07.452070"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:07.452185"
+      },
+      {
+        "role": "user",
+        "content": "خلاص حط كلاسيك وسط واعتمد الطلب بسرعة تكفى.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:17.270380"
+      },
+      {
+        "role": "assistant",
+        "content": "ممكن اسمك ورقم جوالك عشان أكمل تأكيد الطلب؟‬ 🔄 جاري تحويل المحادثة... 00:55:16 [INFO] [ROUTING] Message → checkout agent 00:55:17 [INFO] [TURN COMPLETE] Agent: checkout_agent, Duration: 827ms ممكن اسمك ورقم جوالك عشان أكمل تأكيد الطلب؟‬ 👤",
+        "tool_calls": [
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:17.270205"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:17.270240"
+          },
+          {
+            "name": "get_current_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:17.270253"
+          },
+          {
+            "name": "clear_pending_orders",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:17.270265"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:17.270389"
+      },
+      {
+        "role": "user",
+        "content": "سعود 0501234567، يلا اعتمد الطلب الحين.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:21.969746"
+      },
+      {
+        "role": "assistant",
+        "content": "ملخص طلبك: - 1 برجر لحم كلاسيكي وسط - 45 ريال المجموع: 45 ريال معلومات الاتصال: - الاسم: سعود - رقم الجوال: 0501234567 هل تأكد الطلب؟ 👤",
+        "tool_calls": [
+          {
+            "name": "set_customer_info",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:21.969576"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:21.969760"
+      },
+      {
+        "role": "user",
+        "content": "إي نعم، تمام اعتمد الطلب وخلصني.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:25.973170"
+      },
+      {
+        "role": "assistant",
+        "content": "تم تأكيد طلبك بنجاح! 🎉 👤 سعود 📱 0501234567 رقم الطلب: ORD-20251228-1293 الإجمالي: 45 ريال الاستلام من الفرع الوقت المتوقع: 15-20 دقيقة ⚠️ لأي تعديل أو إلغاء، اتصل على: 920001234 شكراً لطلبك من البيت العربي! 🏠 👤",
+        "tool_calls": [
+          {
+            "name": "confirm_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:25.973048"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:25.973178"
+      }
+    ],
+    "final_order": null,
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "pickup",
+      "district": null,
+      "order_items_count": 0,
+      "order_confirmed": true
+    },
+    "duration_ms": 51509,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "empty_order_prevention",
+    "scenario_name": "Terminal: Try to confirm order before adding items",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 8,
+          "efficiency": 5,
+          "correctness": 8,
+          "arabic_quality": 9,
+          "error_handling": 6,
+          "comments": "The AI successfully completed the order, adding the requested item and confirming the order mode as pickup. However, it initially struggled with task completion due to the lack of specific item requests from the customer, which led to a delay in processing the order. Efficiency was hindered by unnecessary tool calls and repeated prompts for order details, which could have been streamlined. Correctness was mostly accurate, with the correct item and price provided, but the final session state incorrectly shows 'order_items_count' as 0. The Arabic quality was high, with natural and professional language used throughout the interaction. Error handling was moderate; the AI did not handle the initial empty order situation optimally and could have offered more proactive guidance to expedite the process."
+        },
+        "average_score": 7.2,
+        "raw_response": "```json\n{\n  \"task_completion\": 8,\n  \"efficiency\": 5,\n  \"correctness\": 8,\n  \"arabic_quality\": 9,\n  \"error_handling\": 6,\n  \"comments\": \"The AI successfully completed the order, adding the requested item and confirming the order mode as pickup. However, it initially struggled with task completion due to the lack of specific item requests from the customer, which led to a delay in processing the order. Efficiency was hindered by unnecessary tool calls and repeated prompts for order details, which could have been streamlined. Correctness was mostly accurate, with the correct item and price provided, but the final session state incorrectly shows 'order_items_count' as 0. The Arabic quality was high, with natural and professional language used throughout the interaction. Error handling was moderate; the AI did not handle the initial empty order situation optimally and could have offered more proactive guidance to expedite the process.\"\n}\n```",
+        "timestamp": "2025-12-28T00:55:31.421169"
+      }
+    ],
+    "average_score": 7.2
+  }
+}

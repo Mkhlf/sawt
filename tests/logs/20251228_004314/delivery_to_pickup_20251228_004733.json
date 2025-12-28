@@ -1,0 +1,204 @@
+{
+  "scenario": {
+    "scenario_id": "delivery_to_pickup",
+    "scenario_name": "Terminal: Start with delivery, then switch to pick",
+    "messages": [
+      {
+        "role": "user",
+        "content": "هلا، لو سمحت أبغى أطلب شاورما توصيل لحي العليا.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:02.934170"
+      },
+      {
+        "role": "assistant",
+        "content": "تمام! التوصيل لحي العليا متاح. الرسوم: 10 ريال، والوقت المتوقع 20-30 دقيقة. وش اسم الشارع ورقم المبنى؟‬ 🔄 جاري تحويل المحادثة... 00:47:02 [INFO] [ROUTING] Message → location agent 00:47:02 [INFO] [TURN COMPLETE] Agent: location_agent, Duration: 833ms \"وش اسم الشارع ورقم المبنى؟\"‬ 👤",
+        "tool_calls": [
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:02.933888"
+          },
+          {
+            "name": "set_order_mode",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:02.934024"
+          },
+          {
+            "name": "check_delivery_district",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:02.934047"
+          }
+        ],
+        "timestamp": "2025-12-28T00:47:02.934178"
+      },
+      {
+        "role": "user",
+        "content": "أنا في شارع التحلية عند عمارة رقم ٤، بس معليش ١٠ ريال توصيل غالي! خلاص بمر آخذها بنفسي، خلها استلام من الفرع أحسن.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:15.014278"
+      },
+      {
+        "role": "assistant",
+        "content": "عندنا نوعين من الشاورما: - شاورما دجاج بـ 25 ريال - شاورما لحم بـ 30 ريال أي نوع تبي؟ 🔄 جاري تحويل المحادثة... 00:47:11 [INFO] [ROUTING] Message → order agent 00:47:12 [INFO] [TOOL END] get_pending_items (0ms) 00:47:12 [INFO] [TOOL END] search_menu (0ms) 00:47:14 [INFO] [TOOL END] store_offered_items (0ms) 00:47:15 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 3904ms عندنا نوعين من الشاورما: - شاورما دجاج بـ 25 ريال - شاورما لحم بـ 30 ريال أي نوع تبي؟ 👤",
+        "tool_calls": [
+          {
+            "name": "set_order_mode",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014046"
+          },
+          {
+            "name": "get_pending_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014089"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014103"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014117"
+          },
+          {
+            "name": "get_pending_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014167"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014180"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:15.014192"
+          }
+        ],
+        "timestamp": "2025-12-28T00:47:15.014287"
+      },
+      {
+        "role": "user",
+        "content": "أبي ثنتين شاورما دجاج استلام من الفرع، كذا تمام؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:22.868358"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة 2 شاورما دجاج للطلب كاستلام من الفرع. طلبك الحالي: 1. 2 شاورما دجاج - 50 ريال المجموع: 50 ريال. فيه شي ثاني تبي تضيفه؟ 👤",
+        "tool_calls": [
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:22.868164"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:22.868220"
+          },
+          {
+            "name": "get_current_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:47:22.868232"
+          }
+        ],
+        "timestamp": "2025-12-28T00:47:22.868368"
+      },
+      {
+        "role": "user",
+        "content": "لا شكراً، كذا تمام. متى تكون جاهزة؟",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:25.654284"
+      },
+      {
+        "role": "assistant",
+        "content": "الشاورما بتكون جاهزة للاستلام خلال 15-20 دقيقة. شكراً لطلبك!‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:25.654308"
+      },
+      {
+        "role": "user",
+        "content": "تمام، بجيك الحين استلمها. شكراً.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:27.942967"
+      },
+      {
+        "role": "assistant",
+        "content": "حياك الله! الشاورما بتكون جاهزة لك للاستلام. شكراً لطلبك وسلامتك في الطريق!‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:27.942992"
+      },
+      {
+        "role": "user",
+        "content": "تمام يعطيك العافية، مع السلامة.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:30.395188"
+      },
+      {
+        "role": "assistant",
+        "content": "العفو! حياك الله وسلامتك في الطريق. مع السلامة! 😊‬ 👤",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:47:30.395216"
+      }
+    ],
+    "final_order": {
+      "items": [
+        {
+          "name_ar": "item",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0,
+      "delivery_fee": 0,
+      "total": 0
+    },
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "pickup",
+      "district": null,
+      "order_items_count": 1,
+      "order_confirmed": false
+    },
+    "duration_ms": 42657,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "delivery_to_pickup",
+    "scenario_name": "Terminal: Start with delivery, then switch to pick",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 9,
+          "efficiency": 7,
+          "correctness": 9,
+          "arabic_quality": 8,
+          "error_handling": 8,
+          "comments": "The AI successfully completed the task by switching the order mode to pickup and adding the correct items as requested by the customer. However, the order was not marked as confirmed in the final session state. Efficiency could be improved as there were several unnecessary tool calls, especially in the middle of the conversation. The correctness of the order items and prices was maintained, and the mode switch was handled correctly. The Arabic used was mostly natural and appropriate, though there were some repetitive phrases. Error handling was good, as the AI adapted well to the customer's change in order mode and provided clear responses throughout."
+        },
+        "average_score": 8.2,
+        "raw_response": "```json\n{\n  \"task_completion\": 9,\n  \"efficiency\": 7,\n  \"correctness\": 9,\n  \"arabic_quality\": 8,\n  \"error_handling\": 8,\n  \"comments\": \"The AI successfully completed the task by switching the order mode to pickup and adding the correct items as requested by the customer. However, the order was not marked as confirmed in the final session state. Efficiency could be improved as there were several unnecessary tool calls, especially in the middle of the conversation. The correctness of the order items and prices was maintained, and the mode switch was handled correctly. The Arabic used was mostly natural and appropriate, though there were some repetitive phrases. Error handling was good, as the AI adapted well to the customer's change in order mode and provided clear responses throughout.\"\n}\n```",
+        "timestamp": "2025-12-28T00:47:33.783266"
+      }
+    ],
+    "average_score": 8.2
+  }
+}

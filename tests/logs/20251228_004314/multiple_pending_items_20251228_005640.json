@@ -1,0 +1,332 @@
+{
+  "scenario": {
+    "scenario_id": "multiple_pending_items",
+    "scenario_name": "Terminal: Order multiple items at once in greeting",
+    "messages": [
+      {
+        "role": "user",
+        "content": "هلا، أبغى طلب توصيل لحي النرجس، شارع عثمان بن عفان.. لاهنت أبي 2 برجر و3 بيتزا وواحد شاورما.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:55:50.185758"
+      },
+      {
+        "role": "assistant",
+        "content": "تمام! التوصيل لحي النرجس متاح. رسوم التوصيل ١٥ ريال والوقت المتوقع ٣٠ إلى ٤٥ دقيقة. وش اسم الشارع ورقم المبنى؟ 🔄 جاري تحويل المحادثة... 00:55:49 [INFO] [ROUTING] Message → location agent 00:55:50 [INFO] [TURN COMPLETE] Agent: location_agent, Duration: 1120ms تم حفظ حي النرجس. من فضلك، ذكرني باسم الشارع ورقم المبنى عشان نكمل إعداد عنوان التوصيل.‬ 👤",
+        "tool_calls": [
+          {
+            "name": "set_order_mode",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185477"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185565"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185576"
+          },
+          {
+            "name": "add_pending_item",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185586"
+          },
+          {
+            "name": "set_customer_name",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185597"
+          },
+          {
+            "name": "set_phone_number",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185608"
+          },
+          {
+            "name": "check_delivery_district",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:55:50.185635"
+          }
+        ],
+        "timestamp": "2025-12-28T00:55:50.185767"
+      },
+      {
+        "role": "user",
+        "content": "الشارع عثمان بن عفان، رقم المبنى ٤٤٢١. بس وش أنواع البرجر والبيتزا اللي عندكم؟ عشان أختار.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:56:13.123495"
+      },
+      {
+        "role": "assistant",
+        "content": "عندنا الخيارات التالية للطلبات: ### برجر: - برجر نباتي: صغير بـ 35 ريال، وسط بـ 42 ريال، كبير بـ 49 ريال - برجر دجاج مشوي: صغير بـ 36 ريال، وسط بـ 43 ريال، كبير بـ 50 ريال - برجر لحم بالجبن: صغير بـ 40 ريال، وسط بـ 47 ريال، كبير بـ 54 ريال - برجر لحم كلاسيكي: صغير بـ 38 ريال، وسط بـ 45 ريال، كبير بـ 52 ريال ### بيتزا: - بيتزا دجاج بـ 42 ريال - بيتزا مارغريتا بـ 35 ريال - بيتزا لحم بالجبن بـ 45 ريال ### شاورما: - شاورما دجاج بـ 25 ريال - شاورما لحم بـ 30 ريال أي خيار تفضل لكل صنف وعدد المرات؟ 🔄 جاري تحويل المحادثة... 00:56:05 [INFO] [ROUTING] Message → order agent 00:56:06 [INFO] [TOOL END] get_pending_items (0ms) 00:56:08 [INFO] [TOOL END] search_menu (0ms) 00:56:08 [INFO] [TOOL END] search_menu (0ms) 00:56:08 [INFO] [TOOL END] search_menu (0ms) 00:56:11 [INFO] [TOOL END] store_offered_items (0ms) 00:56:11 [INFO] [TOOL END] store_offered_items (0ms) 00:56:11 [INFO] [TOOL END] store_offered_items (0ms) 00:56:13 [INFO] [TURN COMPLETE] Agent: order_agent, Duration: 7424ms عندنا الخيارات التالية: ### برجر: - برجر نباتي: صغير بـ 35 ريال، وسط بـ 42 ريال، كبير بـ 49 ريال - برجر دجاج مشوي: صغير بـ 36 ريال، وسط بـ 43 ريال، كبير بـ 50 ريال - برجر لحم بالجبن: صغير بـ 40 ريال، وسط بـ 47 ريال، كبير بـ 54 ريال - برجر لحم كلاسيكي: صغير بـ 38 ريال، وسط بـ 45 ريال، كبير بـ 52 ريال ### بيتزا: - بيتزا دجاج بـ 42 ريال - بيتزا مارغريتا بـ 35 ريال - بيتزا لحم بالجبن بـ 45 ريال ### شاورما: - شاورما دجاج بـ 25 ريال - شاورما لحم بـ 30 ريال أي خيار تفضل لكل صنف؟ وكم الكمية؟ 👤",
+        "tool_calls": [
+          {
+            "name": "set_delivery_address",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123221"
+          },
+          {
+            "name": "defer_question",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123248"
+          },
+          {
+            "name": "get_order_summary",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123259"
+          },
+          {
+            "name": "get_pending_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123272"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123280"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123287"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123293"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123305"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123311"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123316"
+          },
+          {
+            "name": "get_pending_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123365"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123373"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123380"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123386"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123396"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123401"
+          },
+          {
+            "name": "store_offered_items",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:13.123407"
+          }
+        ],
+        "timestamp": "2025-12-28T00:56:13.123500"
+      },
+      {
+        "role": "user",
+        "content": "أبي الـ 2 برجر لحم بالجبن حجم وسط، والـ 3 بيتزا خلها ثنتين دجاج وواحدة مارغريتا، والشاورما عطني لحم لاهنت.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:56:24.422521"
+      },
+      {
+        "role": "assistant",
+        "content": "تم إضافة الطلبات للطلب الحالي: 1. 2 برجر لحم بالجبن وسط - 94 ريال 2. 2 بيتزا دجاج - 84 ريال 3. 1 بيتزا مارغريتا - 35 ريال 4. 1 شاورما لحم - 30 ريال المجموع: 243 ريال تبغى شيء ثاني قبل ما نحسب التوصيل ونعالج الطلب؟ 👤",
+        "tool_calls": [
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422243"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422279"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422291"
+          },
+          {
+            "name": "search_menu",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422301"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422323"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422333"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422343"
+          },
+          {
+            "name": "add_to_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422353"
+          },
+          {
+            "name": "get_current_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:24.422389"
+          }
+        ],
+        "timestamp": "2025-12-28T00:56:24.422530"
+      },
+      {
+        "role": "user",
+        "content": "سلامتك، كذا تمام. اعتمد الطلب ووصلوه بأسرع وقت لاهنت.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:56:30.999375"
+      },
+      {
+        "role": "assistant",
+        "content": "نلخص طلبك كالتالي: - 2 برجر لحم بالجبن وسط - 94 ريال - 2 بيتزا دجاج - 84 ريال - 1 بيتزا مارغريتا - 35 ريال - 1 شاورما لحم - 30 ريال المجموع الفرعي هو 243 ريال بالإضافة إلى رسوم التوصيل 15 ريال. الإجمالي يصبح 258 ريال. وحيكون الطلب موصل لحي النرجس في وقت متوقع من 30 إلى 45 دقيقة. هل تأكد الطلب؟ 🔄 جاري تحويل المحادثة... 00:56:29 [INFO] [ROUTING] Message → checkout agent 00:56:30 [INFO] [TURN COMPLETE] Agent: checkout_agent, Duration: 1284ms أحتاج رقم جوالك عشان أكمل تأكيد الطلب. ممكن تعطيني رقمه لو سمحت؟‬ 👤",
+        "tool_calls": [
+          {
+            "name": "clear_pending_orders",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:30.999230"
+          }
+        ],
+        "timestamp": "2025-12-28T00:56:30.999383"
+      },
+      {
+        "role": "user",
+        "content": "أبشر، هذا رقمي 0551234567. تمام كذا، اعتمد الطلب وشكراً لك.",
+        "tool_calls": [],
+        "timestamp": "2025-12-28T00:56:36.238892"
+      },
+      {
+        "role": "assistant",
+        "content": "تم تأكيد طلبك بنجاح! 🎉 👤 الاسم: العميل 📱 الجوال: 0551234567 - رقم الطلب: ORD-20251228-D359 - الإجمالي: 258 ريال التوصيل: حي النرجس العنوان: الشارع عثمان بن عفان، رقم المبنى ٤٤٢١ الوقت المتوقع للتوصيل: 30-45 دقيقة ⚠️ لأي تعديل أو إلغاء، يمكنك الاتصال على الرقم: 920001234 شكراً لطلبك من \"البيت العربي\"! 🏠 👤",
+        "tool_calls": [
+          {
+            "name": "set_customer_info",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:36.238658"
+          },
+          {
+            "name": "confirm_order",
+            "arguments": {},
+            "result": null,
+            "timestamp": "2025-12-28T00:56:36.238702"
+          }
+        ],
+        "timestamp": "2025-12-28T00:56:36.238906"
+      }
+    ],
+    "final_order": {
+      "items": [
+        {
+          "name_ar": "item",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 0,
+      "delivery_fee": 0,
+      "total": 0
+    },
+    "final_session": {
+      "customer_name": null,
+      "phone": null,
+      "order_mode": "delivery",
+      "district": null,
+      "order_items_count": 1,
+      "order_confirmed": true
+    },
+    "duration_ms": 66194,
+    "success": true,
+    "error": null
+  },
+  "evaluation": {
+    "scenario_id": "multiple_pending_items",
+    "scenario_name": "Terminal: Order multiple items at once in greeting",
+    "judge_results": [
+      {
+        "model": "gpt-4o",
+        "scores": {
+          "task_completion": 9,
+          "efficiency": 7,
+          "correctness": 9,
+          "arabic_quality": 9,
+          "error_handling": 8,
+          "comments": "The AI successfully completed the order, fulfilling the customer's intent with the correct items and quantities. However, it required multiple tool calls and repeated the menu options unnecessarily, which affected efficiency. The Arabic used was natural and appropriate for the Saudi context, maintaining a friendly and professional tone. Error handling was decent, as the AI managed to guide the customer through the order process smoothly, but it could have been more proactive in confirming the details initially. Overall, the interaction was effective with minor areas for improvement in efficiency and initial error handling."
+        },
+        "average_score": 8.4,
+        "raw_response": "```json\n{\n  \"task_completion\": 9,\n  \"efficiency\": 7,\n  \"correctness\": 9,\n  \"arabic_quality\": 9,\n  \"error_handling\": 8,\n  \"comments\": \"The AI successfully completed the order, fulfilling the customer's intent with the correct items and quantities. However, it required multiple tool calls and repeated the menu options unnecessarily, which affected efficiency. The Arabic used was natural and appropriate for the Saudi context, maintaining a friendly and professional tone. Error handling was decent, as the AI managed to guide the customer through the order process smoothly, but it could have been more proactive in confirming the details initially. Overall, the interaction was effective with minor areas for improvement in efficiency and initial error handling.\"\n}\n```",
+        "timestamp": "2025-12-28T00:56:40.830491"
+      }
+    ],
+    "average_score": 8.4
+  }
+}

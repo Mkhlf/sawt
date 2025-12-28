@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (if large)
+# data/menu.json
+# data/coverage_zones.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+

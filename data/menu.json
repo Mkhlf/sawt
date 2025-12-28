@@ -1,0 +1,962 @@
+{
+  "items": [
+    {
+      "id": "main_001",
+      "name_ar": "كبسة لحم",
+      "name_en": "Lamb Kabsa",
+      "price": 55,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع لحم الضأن المتبل بالبهارات السعودية الأصيلة. يقدم مع صلصة الطماطم واللوز المحمص."
+    },
+    {
+      "id": "main_002",
+      "name_ar": "كبسة دجاج",
+      "name_en": "Chicken Kabsa",
+      "price": 48,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع قطع الدجاج المتبلة بخلطة الكبسة التقليدية. يزين بالمشمش والزبيب."
+    },
+    {
+      "id": "main_003",
+      "name_ar": "مندي لحم",
+      "name_en": "Lamb Mandi",
+      "price": 60,
+      "category": "main_dishes",
+      "description_ar": "لحم ضأن مطهو ببطء في فرن الحطب مع أرز البسمتي والبهارات العربية. يُقدم مع صلصة الدقوق."
+    },
+    {
+      "id": "main_004",
+      "name_ar": "مندي دجاج",
+      "name_en": "Chicken Mandi",
+      "price": 45,
+      "category": "main_dishes",
+      "description_ar": "دجاج طري يُطهى على طريقة المندي مع أرز البسمتي والبهارات العطرية. يُقدم مع صلصة الزعفران."
+    },
+    {
+      "id": "main_005",
+      "name_ar": "جريش باللحم",
+      "name_en": "Lamb Jareesh",
+      "price": 52,
+      "category": "main_dishes",
+      "description_ar": "حبوب القمح المجروشة تُطهى مع لحم الضأن والبهارات حتى تصبح كريمية. تُزين بالبصل المقلي."
+    },
+    {
+      "id": "main_006",
+      "name_ar": "جريش بالدجاج",
+      "name_en": "Chicken Jareesh",
+      "price": 44,
+      "category": "main_dishes",
+      "description_ar": "جريش ناعم مع قطع الدجاج المتبلة، يُقدم مع صلصة الطماطم والليمون. مثالي للوجبة الدافئة."
+    },
+    {
+      "id": "main_007",
+      "name_ar": "مطبق لحم",
+      "name_en": "Lamb Mutabbaq",
+      "price": 58,
+      "category": "main_dishes",
+      "description_ar": "فطيرة رقيقة محشوة باللحم المفروم المتبل، تُقلى حتى تصبح ذهبية ومقرمشة. تُقدم مع صلصة الزبادي."
+    },
+    {
+      "id": "main_008",
+      "name_ar": "مجبوس لحم",
+      "name_en": "Lamb Machboos",
+      "price": 62,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع لحم الضأن، يُطهى مع بهارات الخليج والكمون. يُقدم مع صلصة الطماطم الحارة."
+    },
+    {
+      "id": "main_009",
+      "name_ar": "مجبوس دجاج",
+      "name_en": "Chicken Machboos",
+      "price": 49,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع قطع الدجاج المتبلة بخلطة المجبوس التقليدية. يُزين بالمكسرات المحمصة."
+    },
+    {
+      "id": "main_010",
+      "name_ar": "مضغوط لحم",
+      "name_en": "Lamb Madghout",
+      "price": 57,
+      "category": "main_dishes",
+      "description_ar": "لحم ضأن يُطهى مع الأرز والبهارات في قدر مغلق حتى يتشرب النكهات. يُقدم مع صلصة الزعفران."
+    },
+    {
+      "id": "main_011",
+      "name_ar": "مضغوط دجاج",
+      "name_en": "Chicken Madghout",
+      "price": 46,
+      "category": "main_dishes",
+      "description_ar": "دجاج طري يُطهى مع الأرز والبهارات في قدر مغلق، ينتج طبقًا غنيًا ومليئًا بالنكهات. يُقدم مع صلصة اللبن."
+    },
+    {
+      "id": "main_012",
+      "name_ar": "هريس لحم",
+      "name_en": "Lamb Harees",
+      "price": 54,
+      "category": "main_dishes",
+      "description_ar": "دقيق القمح يُطحن مع لحم الضأن حتى يصبح قوامًا كريميًا. يُزين بالقرفة واللوز المحمص."
+    },
+    {
+      "id": "main_013",
+      "name_ar": "مشاوي مشكلة",
+      "name_en": "Mixed Grills",
+      "price": 68,
+      "category": "main_dishes",
+      "description_ar": "تشكيلة من اللحم، الدجاج، واللحم الضأن المشوي على الفحم مع بهارات عربية. تُقدم مع صلصة الثوم والخبز العربي."
+    },
+    {
+      "id": "main_014",
+      "name_ar": "شيش طاووق",
+      "name_en": "Shish Tawook",
+      "price": 42,
+      "category": "main_dishes",
+      "description_ar": "قطع دجاج مخللة في صلصة الزبادي والليمون، تُشوى على أسياخ الفحم. تُقدم مع صلصة الطحينة."
+    },
+    {
+      "id": "main_015",
+      "name_ar": "كباب لحم",
+      "name_en": "Lamb Kebab",
+      "price": 50,
+      "category": "main_dishes",
+      "description_ar": "كباب لحم الضأن المتبل بالبهارات العربية، يُشوى حتى يتحمر. يُقدم مع صلصة الطماطم والخبز."
+    },
+    {
+      "id": "main_016",
+      "name_ar": "برجر لحم كلاسيكي",
+      "name_en": "Classic Beef Burger",
+      "price": {
+        "صغير": 38,
+        "وسط": 45,
+        "كبير": 52
+      },
+      "category": "main_dishes",
+      "description_ar": "برجر لحم بقر طازج مع الخس، الطماطم، والمايونيز. يُقدم مع بطاطس مقلية مقرمشة."
+    },
+    {
+      "id": "main_017",
+      "name_ar": "برجر دجاج مشوي",
+      "name_en": "Grilled Chicken Burger",
+      "price": {
+        "صغير": 36,
+        "وسط": 43,
+        "كبير": 50
+      },
+      "category": "main_dishes",
+      "description_ar": "صدر دجاج مشوي مع صلصة الثوم والجبن الشيدر. يُقدم داخل خبز البرجر الطري."
+    },
+    {
+      "id": "main_018",
+      "name_ar": "برجر نباتي",
+      "name_en": "Vegetarian Burger",
+      "price": {
+        "صغير": 35,
+        "وسط": 42,
+        "كبير": 49
+      },
+      "category": "main_dishes",
+      "description_ar": "فطيرة نباتية من الحمص والعدس مع الخضار المشوية والصلصة الحارة. خيار صحي ولذيذ."
+    },
+    {
+      "id": "main_019",
+      "name_ar": "سندويش لحم مشوي",
+      "name_en": "Grilled Beef Sandwich",
+      "price": 40,
+      "category": "main_dishes",
+      "description_ar": "شرائح لحم مشوي مع الخس، الطماطم، والماسترد داخل خبز فرنسي طازج. يُقدم مع بطاطس شيبس."
+    },
+    {
+      "id": "main_020",
+      "name_ar": "سندويش دجاج صاج",
+      "name_en": "Saj Chicken Sandwich",
+      "price": 38,
+      "category": "main_dishes",
+      "description_ar": "دجاج صاج متبل بالبهارات، يُلف في خبز صاج مع مخللات وخضار طازجة. مثالي للوجبة السريعة."
+    },
+    {
+      "id": "main_021",
+      "name_ar": "سندويش خضار مشوي",
+      "name_en": "Grilled Veggie Sandwich",
+      "price": 36,
+      "category": "main_dishes",
+      "description_ar": "خضار مشوية (فلفل، باذنجان، كوسا) مع صلصة الطحينة داخل خبز الباجيت. خيار نباتي شهي."
+    },
+    {
+      "id": "main_022",
+      "name_ar": "باستا بولونيز",
+      "name_en": "Bolognese Pasta",
+      "price": 55,
+      "category": "main_dishes",
+      "description_ar": "مكرونة إسباجيتي مع صلصة بولونيز غنية باللحم المفروم والطماطم. تُرش بالبارميزان المبشور."
+    },
+    {
+      "id": "main_023",
+      "name_ar": "باستا ألفريدو",
+      "name_en": "Alfredo Pasta",
+      "price": 58,
+      "category": "main_dishes",
+      "description_ar": "مكرونة فيوري مع صلصة ألفريدو الكريمية من الزبدة والكريمة والجبن. تُقدم مع رشة جوز الطيب."
+    },
+    {
+      "id": "main_024",
+      "name_ar": "معكرونة بالصلصة الحمراء",
+      "name_en": "Red Sauce Pasta",
+      "price": 52,
+      "category": "main_dishes",
+      "description_ar": "مكرونة بيني مع صلصة طماطم حارة، ثوم، وأعشاب إيطالية. تُزين بأوراق الريحان الطازجة."
+    },
+    {
+      "id": "main_025",
+      "name_ar": "كبسة سمك",
+      "name_en": "Fish Kabsa",
+      "price": 57,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع قطع السمك الطازجة المتبلة بخلطة الكبسة. يُقدم مع صلصة الليمون والكمون."
+    },
+    {
+      "id": "main_026",
+      "name_ar": "مطبق دجاج",
+      "name_en": "Chicken Mutabbaq",
+      "price": 54,
+      "category": "main_dishes",
+      "description_ar": "فطيرة رقيقة محشوة بقطع الدجاج المتبلة، تُقلى حتى تصبح مقرمشة. تُقدم مع صلصة الزبادي بالنعناع."
+    },
+    {
+      "id": "main_027",
+      "name_ar": "مجبوس سمك",
+      "name_en": "Fish Machboos",
+      "price": 60,
+      "category": "main_dishes",
+      "description_ar": "أرز بسمتي مع سمك فيليه متبل ببهارات الخليج، يُطهى مع الخضار. يُقدم مع صلصة الطماطم الحارة."
+    },
+    {
+      "id": "main_028",
+      "name_ar": "كباب دجاج",
+      "name_en": "Chicken Kebab",
+      "price": 48,
+      "category": "main_dishes",
+      "description_ar": "كباب دجاج متبل بالليمون والبهارات، يُشوى على الفحم حتى يتحمر. يُقدم مع صلصة الزبادي والثوم."
+    },
+    {
+      "id": "main_029",
+      "name_ar": "برجر لحم بالجبن",
+      "name_en": "Cheese Beef Burger",
+      "price": {
+        "صغير": 40,
+        "وسط": 47,
+        "كبير": 54
+      },
+      "category": "main_dishes",
+      "description_ar": "برجر لحم بقر مع شريحة جبن شيدر ذائبة، مع الخس والطماطم. يُقدم مع بطاطس مقلية مقرمشة."
+    },
+    {
+      "id": "main_030",
+      "name_ar": "سندويش فلافل",
+      "name_en": "Falafel Sandwich",
+      "price": 37,
+      "category": "main_dishes",
+      "description_ar": "فلافل مقرمشة محضرة من الحمص، تُلف في خبز الصاج مع الطحينة والمخللات. خيار نباتي شهي."
+    },
+    {
+      "id": "app_001",
+      "name_ar": "حمص",
+      "name_en": "Hummus",
+      "price": 18,
+      "category": "appetizers",
+      "description_ar": "حمص ناعم مع طحينة، ليمون وزيت زيتون، يقدم مع خبز عربي طازج."
+    },
+    {
+      "id": "app_002",
+      "name_ar": "بابا غنوج",
+      "name_en": "Baba Ganoush",
+      "price": 20,
+      "category": "appetizers",
+      "description_ar": "متبل باذنجان مشوي مع طحينة، ثوم وعصير ليمون، يضيف نكهة مدخنة مميزة."
+    },
+    {
+      "id": "app_003",
+      "name_ar": "تبولة",
+      "name_en": "Tabbouleh",
+      "price": 16,
+      "category": "appetizers",
+      "description_ar": "سلطة برغل خفيفة مع بقدونس، طماطم، نعناع وعصير ليمون."
+    },
+    {
+      "id": "app_004",
+      "name_ar": "فتوش",
+      "name_en": "Fattoush",
+      "price": 17,
+      "category": "appetizers",
+      "description_ar": "سلطة خضار طازجة مع خبز مقلي، سماق ورمان لإضفاء حموضة خفيفة."
+    },
+    {
+      "id": "app_005",
+      "name_ar": "سلطة يونانية",
+      "name_en": "Greek Salad",
+      "price": 19,
+      "category": "appetizers",
+      "description_ar": "خليط من الطماطم، الخيار، الزيتون، جبنة فيتا وصوص زيت الزيتون والليمون."
+    },
+    {
+      "id": "app_006",
+      "name_ar": "كبسة كفتة",
+      "name_en": "Kabsah Kofta",
+      "price": 28,
+      "category": "appetizers",
+      "description_ar": "كفتة لحم مبهرة مع صلصة طماطم خفيفة وتوابل الكبسة، تقدم ساخنة."
+    },
+    {
+      "id": "app_007",
+      "name_ar": "سبرنغ رول",
+      "name_en": "Spring Roll",
+      "price": 22,
+      "category": "appetizers",
+      "description_ar": "لفائف رقيقة محشوة بالخضار المقرمشة، تقدم مع صلصة الفلفل الحلو."
+    },
+    {
+      "id": "app_008",
+      "name_ar": "سمبوسة",
+      "name_en": "Sambusa",
+      "price": 21,
+      "category": "appetizers",
+      "description_ar": "عجينة مقرمشة محشوة باللحم المفروم أو الخضار، مثالية لتناولها مع صلصة الزبادي."
+    },
+    {
+      "id": "app_009",
+      "name_ar": "فلافل",
+      "name_en": "Falafel",
+      "price": 20,
+      "category": "appetizers",
+      "description_ar": "كرات حمص مقلية مع أعشاب عربية، تقدم مع طحينة وخبز بيتا."
+    },
+    {
+      "id": "app_010",
+      "name_ar": "جبنة",
+      "name_en": "Cheese Dip",
+      "price": 15,
+      "category": "appetizers",
+      "description_ar": "صوص جبن كريمي مع توابل عربية، يُقدم مع الخبز المحمص."
+    },
+    {
+      "id": "app_011",
+      "name_ar": "زيتون",
+      "name_en": "Olives",
+      "price": 16,
+      "category": "appetizers",
+      "description_ar": "مزيج من الزيتون الأخضر والأسود المتبل بالأعشاب وزيت الزيتون."
+    },
+    {
+      "id": "app_012",
+      "name_ar": "لبنة",
+      "name_en": "Labneh",
+      "price": 17,
+      "category": "appetizers",
+      "description_ar": "لبنة طرية مع زيت زيتون ورشة سماق، تُقدم مع الخبز العربي."
+    },
+    {
+      "id": "app_013",
+      "name_ar": "متبل باذنجان",
+      "name_en": "Eggplant Mutabbal",
+      "price": 22,
+      "category": "appetizers",
+      "description_ar": "باذنجان مشوي مهروس مع طحينة، ثوم وعصير ليمون، يُقدم باردًا."
+    },
+    {
+      "id": "app_014",
+      "name_ar": "متبل فلفل",
+      "name_en": "Pepper Mutabbal",
+      "price": 23,
+      "category": "appetizers",
+      "description_ar": "فلفل أحمر مشوي مهروس مع طحينة، ثوم، وكمون، يضيف نكهة مدخنة."
+    },
+    {
+      "id": "app_015",
+      "name_ar": "محمرة",
+      "name_en": "Muhammara",
+      "price": 24,
+      "category": "appetizers",
+      "description_ar": "معجون فلفل أحمر وجوز مع زيت زيتون وعصير ليمون، غني بالنكهات."
+    },
+    {
+      "id": "app_016",
+      "name_ar": "مقبلات مشوية (جبنة حلومي)",
+      "name_en": "Grilled Halloumi",
+      "price": 26,
+      "category": "appetizers",
+      "description_ar": "شرائح جبنة حلومي مشوية حتى تصبح ذهبية، تُقدم مع صلصة النعناع."
+    },
+    {
+      "id": "app_017",
+      "name_ar": "كبة مقلية",
+      "name_en": "Fried Kibbeh",
+      "price": 27,
+      "category": "appetizers",
+      "description_ar": "كبة لحم مقلية مقرمشة من الخارج، محشوة باللحم المفروم والبهارات."
+    },
+    {
+      "id": "app_018",
+      "name_ar": "ورق عنب",
+      "name_en": "Stuffed Grape Leaves",
+      "price": 25,
+      "category": "appetizers",
+      "description_ar": "أوراق عنب محشوة بالأرز المتبل واللحم، تُقدم باردة مع صوص الليمون."
+    },
+    {
+      "id": "app_019",
+      "name_ar": "مقابلات سمك (فطائر سمك)",
+      "name_en": "Fish Croquettes",
+      "price": 30,
+      "category": "appetizers",
+      "description_ar": "فطائر سمك مقلية مع أعشاب بحرية، تُقدم مع صلصة الطماطم الحارة."
+    },
+    {
+      "id": "app_020",
+      "name_ar": "مقابلات دجاج (شيش طاووق صغير)",
+      "name_en": "Chicken Skewers",
+      "price": 28,
+      "category": "appetizers",
+      "description_ar": "قطع دجاج متبلة ببهارات عربية ومشوية على الفحم، تُقدم مع صلصة الثوم."
+    },
+    {
+      "id": "bev_001",
+      "name_ar": "قهوة عربية",
+      "name_en": "Arabic Coffee",
+      "price": {
+        "صغير": 8,
+        "وسط": 12,
+        "كبير": 15
+      },
+      "category": "beverages",
+      "description_ar": "قهوة عربية أصيلة تُحضّر على الطريقة التقليدية مع الهيل. تُقدَّم ساخنة لتمنحك دفء الصباح."
+    },
+    {
+      "id": "bev_002",
+      "name_ar": "شاي",
+      "name_en": "Tea",
+      "price": {
+        "صغير": 8,
+        "وسط": 11,
+        "كبير": 14
+      },
+      "category": "beverages",
+      "description_ar": "شاي أسود ناعم مع نكهة خفيفة من النعناع أو الزعتر حسب الطلب. مثالي للراحة بعد الوجبة."
+    },
+    {
+      "id": "bev_003",
+      "name_ar": "قهوة تركية",
+      "name_en": "Turkish Coffee",
+      "price": {
+        "صغير": 9,
+        "وسط": 13,
+        "كبير": 16
+      },
+      "category": "beverages",
+      "description_ar": "قهوة تركية غنية بطعمها القوي ورغوة كثيفة، تُقدَّم مع تمرة أو قطعة من الحلوى."
+    },
+    {
+      "id": "bev_004",
+      "name_ar": "كابتشينو",
+      "name_en": "Cappuccino",
+      "price": {
+        "صغير": 10,
+        "وسط": 14,
+        "كبير": 18
+      },
+      "category": "beverages",
+      "description_ar": "كابتشينو إيطالي مع حليب مبخر ورغوة ناعمة، يُزيّن برشة من القرفة أو الكاكاو."
+    },
+    {
+      "id": "bev_005",
+      "name_ar": "عصير برتقال طازج",
+      "name_en": "Fresh Orange Juice",
+      "price": {
+        "صغير": 12,
+        "وسط": 16,
+        "كبير": 20
+      },
+      "category": "beverages",
+      "description_ar": "عصير برتقال طبيعي معصور على الفور، غني بفيتامين سي ومنعش في أي وقت."
+    },
+    {
+      "id": "bev_006",
+      "name_ar": "عصير ليمون بالنعناع",
+      "name_en": "Lemon Mint Juice",
+      "price": {
+        "صغير": 10,
+        "وسط": 14,
+        "كبير": 18
+      },
+      "category": "beverages",
+      "description_ar": "مزيج منعش من الليمون الحامض مع أوراق النعناع الطازجة، يبرد حرارة الصيف."
+    },
+    {
+      "id": "bev_007",
+      "name_ar": "عصير فراولة",
+      "name_en": "Strawberry Juice",
+      "price": {
+        "صغير": 12,
+        "وسط": 16,
+        "كبير": 22
+      },
+      "category": "beverages",
+      "description_ar": "عصير فراولة طبيعي مع حلاوة طبيعية، يُقدَّم باردًا مع قطع فراولة للتزيين."
+    },
+    {
+      "id": "bev_008",
+      "name_ar": "عصير مانجو",
+      "name_en": "Mango Juice",
+      "price": {
+        "صغير": 12,
+        "وسط": 17,
+        "كبير": 23
+      },
+      "category": "beverages",
+      "description_ar": "عصير مانجو ناضج ومُحلى قليلًا، يضيف لمسة استوائية إلى قائمة المشروبات."
+    },
+    {
+      "id": "bev_009",
+      "name_ar": "كولا",
+      "name_en": "Cola",
+      "price": {
+        "صغير": 8,
+        "وسط": 11,
+        "كبير": 14
+      },
+      "category": "beverages",
+      "description_ar": "مشروب غازي كلاسيكي بنكهة الكولا الأصلية، ينعش الحواس في كل رشفة."
+    },
+    {
+      "id": "bev_010",
+      "name_ar": "ميرندا",
+      "name_en": "Miranda",
+      "price": {
+        "صغير": 8,
+        "وسط": 11,
+        "كبير": 14
+      },
+      "category": "beverages",
+      "description_ar": "مشروب غازي بنكهة الليمون والبرتقال، يُقدَّم ببرودة مثالية."
+    },
+    {
+      "id": "bev_011",
+      "name_ar": "سفن أب",
+      "name_en": "7Up",
+      "price": {
+        "صغير": 8,
+        "وسط": 11,
+        "كبير": 14
+      },
+      "category": "beverages",
+      "description_ar": "مشروب غازي خفيف بطعم الليمون المنعش، مثالي للرفقة أو الوجبة."
+    },
+    {
+      "id": "bev_012",
+      "name_ar": "عرق سوس",
+      "name_en": "Licorice Drink",
+      "price": {
+        "صغير": 9,
+        "وسط": 13,
+        "كبير": 17
+      },
+      "category": "beverages",
+      "description_ar": "مشروب تقليدي من جذور عرق السوس، يُقدَّم باردًا مع لمسة من القرفة."
+    },
+    {
+      "id": "bev_013",
+      "name_ar": "تمر هندي",
+      "name_en": "Tamarind Drink",
+      "price": {
+        "صغير": 9,
+        "وسط": 13,
+        "كبير": 17
+      },
+      "category": "beverages",
+      "description_ar": "مشروب حامض حلو من تمر هندي مع سكر خفيف، يُشرب في المناسبات الخاصة."
+    },
+    {
+      "id": "bev_014",
+      "name_ar": "قمر الدين",
+      "name_en": "Apricot Drink",
+      "price": {
+        "صغير": 9,
+        "وسط": 13,
+        "كبير": 17
+      },
+      "category": "beverages",
+      "description_ar": "مشروب من مشمش مجفف يُنقع في ماء الورد، يُقدَّم باردًا مع مكعبات ثلج."
+    },
+    {
+      "id": "bev_015",
+      "name_ar": "شاي أخضر بالنعناع",
+      "name_en": "Green Tea with Mint",
+      "price": {
+        "صغير": 9,
+        "وسط": 12,
+        "كبير": 15
+      },
+      "category": "beverages",
+      "description_ar": "شاي أخضر منعش مع أوراق النعناع الطازجة، يُقدَّم ساخنًا أو باردًا حسب الرغبة."
+    },
+    {
+      "id": "bev_016",
+      "name_ar": "قهوة بالحليب",
+      "name_en": "Coffee with Milk",
+      "price": {
+        "صغير": 10,
+        "وسط": 14,
+        "كبير": 18
+      },
+      "category": "beverages",
+      "description_ar": "قهوة عربية مخلوطة بحليب طازج لتمنحك نكهة كريمية خفيفة ومريحة."
+    },
+    {
+      "id": "bev_017",
+      "name_ar": "عصير رمان",
+      "name_en": "Pomegranate Juice",
+      "price": {
+        "صغير": 12,
+        "وسط": 16,
+        "كبير": 22
+      },
+      "category": "beverages",
+      "description_ar": "عصير رمان غني بمضادات الأكسدة، يُقدَّم باردًا مع قشر ليمون للتزيين."
+    },
+    {
+      "id": "bev_018",
+      "name_ar": "ليموناضة",
+      "name_en": "Lemonade",
+      "price": {
+        "صغير": 10,
+        "وسط": 14,
+        "كبير": 18
+      },
+      "category": "beverages",
+      "description_ar": "مشروب ليمون طازج مع سكر خفيف وماء بارد، ينعش الحواس في أيام الصيف الحارة."
+    },
+    {
+      "id": "bev_019",
+      "name_ar": "مشروب الزعفران",
+      "name_en": "Saffron Drink",
+      "price": {
+        "صغير": 13,
+        "وسط": 18,
+        "كبير": 23
+      },
+      "category": "beverages",
+      "description_ar": "مشروب فاخر من ماء الزعفران مع عسل طبيعي، يُقدَّم دافئًا أو باردًا حسب الطلب."
+    },
+    {
+      "id": "bev_020",
+      "name_ar": "شاي كرك",
+      "name_en": "Karake Tea",
+      "price": {
+        "صغير": 9,
+        "وسط": 13,
+        "كبير": 16
+      },
+      "category": "beverages",
+      "description_ar": "شاي كرك هندي غني بالتوابل مثل القرفة والقرنفل، يُقدَّم مع حليب وسكر."
+    },
+    {
+      "id": "des_001",
+      "name_ar": "كنافة",
+      "name_en": "Kunafa",
+      "price": 38,
+      "category": "desserts",
+      "description_ar": "كنافة ناعمة بطبقة من الجبن أو القشطة، مغطاة بشراب القطر الفاخر ومحمصة بالسمسم."
+    },
+    {
+      "id": "des_002",
+      "name_ar": "بقلاوة",
+      "name_en": "Baklava",
+      "price": 32,
+      "category": "desserts",
+      "description_ar": "طبقات رقيقة من العجين الفيلو محشوة بالمكسرات المفرومة ومغموسة بقطرات العسل."
+    },
+    {
+      "id": "des_003",
+      "name_ar": "أم علي",
+      "name_en": "Um Ali",
+      "price": 28,
+      "category": "desserts",
+      "description_ar": "حلوى عربية تقليدية من الخبز المحمص، الحليب، المكسرات والزبيب، تُخبز حتى تصبح ذهبية."
+    },
+    {
+      "id": "des_004",
+      "name_ar": "لقيمات",
+      "name_en": "Luqaimat",
+      "price": 22,
+      "category": "desserts",
+      "description_ar": "كرات صغيرة من العجين المقلي، تُغمس في شراب القطر وتُرش بالقرفة."
+    },
+    {
+      "id": "des_005",
+      "name_ar": "كيك الشوكولاتة",
+      "name_en": "Chocolate Cake",
+      "price": 40,
+      "category": "desserts",
+      "description_ar": "كيك غني بطبقة كثيفة من الشوكولاتة الداكنة مع كريمة الفانيليا."
+    },
+    {
+      "id": "des_006",
+      "name_ar": "آيس كريم فانيليا",
+      "name_en": "Vanilla Ice Cream",
+      "price": 18,
+      "category": "desserts",
+      "description_ar": "آيس كريم ناعم بنكهة الفانيليا الطبيعية، يُقدم مع صوص الشوكولاتة أو الفواكه."
+    },
+    {
+      "id": "des_007",
+      "name_ar": "براوني",
+      "name_en": "Brownie",
+      "price": 35,
+      "category": "desserts",
+      "description_ar": "قطعة براوني رطبة مع قطع الشوكولاتة، تُقدم دافئة مع صوص الكراميل."
+    },
+    {
+      "id": "des_008",
+      "name_ar": "معمول",
+      "name_en": "Ma'amoul",
+      "price": 20,
+      "category": "desserts",
+      "description_ar": "كعك محشو بالتمر أو الجوز أو الفستق، مغطى بطبقة رقيقة من السكر البودرة."
+    },
+    {
+      "id": "des_009",
+      "name_ar": "كعك",
+      "name_en": "Arabic Cookies",
+      "price": 16,
+      "category": "desserts",
+      "description_ar": "كعك هشة بنكهة الزعفران والهيل، تُرش بالسمسم أو الفستق."
+    },
+    {
+      "id": "des_010",
+      "name_ar": "زلابية",
+      "name_en": "Zalabia",
+      "price": 24,
+      "category": "desserts",
+      "description_ar": "دوائر من العجين المقلي تُغمس في شراب القطر وتُقدم ساخنة."
+    },
+    {
+      "id": "des_011",
+      "name_ar": "قطايف",
+      "name_en": "Qatayef",
+      "price": 30,
+      "category": "desserts",
+      "description_ar": "فطائر صغيرة محشوة بالجبن أو القشطة، تُقلى ثم تُغمس في القطر."
+    },
+    {
+      "id": "des_012",
+      "name_ar": "مهلبية",
+      "name_en": "Mahalabia",
+      "price": 19,
+      "category": "desserts",
+      "description_ar": "حلوى حليب مخفوقة مع ماء الورد أو الفانيليا، تُزين بالفستق المطحون."
+    },
+    {
+      "id": "des_013",
+      "name_ar": "فواكه مشوية مع عسل",
+      "name_en": "Grilled Fruit with Honey",
+      "price": 27,
+      "category": "desserts",
+      "description_ar": "مزيج من الفواكه الموسمية المشوية تُرش بقطرات العسل والليمون."
+    },
+    {
+      "id": "des_014",
+      "name_ar": "بسبوسة",
+      "name_en": "Basbousa",
+      "price": 23,
+      "category": "desserts",
+      "description_ar": "حلوى سميد رطبة مع جوز الهند، تُغمر بقطرات القطر وتُزين باللوز."
+    },
+    {
+      "id": "des_015",
+      "name_ar": "كسترد بالتمر",
+      "name_en": "Date Custard",
+      "price": 34,
+      "category": "desserts",
+      "description_ar": "كسترد كريمي مع قطع التمر المكرمل، يُقدم باردًا مع رشة قرفة."
+    },
+    {
+      "id": "sid_001",
+      "name_ar": "سلطة خضار",
+      "name_en": "Vegetable Salad",
+      "price": 8,
+      "category": "sides",
+      "description_ar": "سلطة طازجة من الخضار الموسمية المقطعة، تُقدم مع صلصة خفيفة من الليمون وزيت الزيتون."
+    },
+    {
+      "id": "sid_002",
+      "name_ar": "سلطة كول سلو",
+      "name_en": "Coleslaw Salad",
+      "price": 7,
+      "category": "sides",
+      "description_ar": "خليط من الملفوف المبشور والجزر مع صلصة مايونيز خفيفة، يضيف قرمشة ونكهة منعشة."
+    },
+    {
+      "id": "sid_003",
+      "name_ar": "سلطة جرجير",
+      "name_en": "Arugula Salad",
+      "price": 9,
+      "category": "sides",
+      "description_ar": "جرجير طازج مع حبات رمان، صلصة عسل وخردل، يضيف نكهة حارة وحلوة في آنٍ واحد."
+    },
+    {
+      "id": "sid_004",
+      "name_ar": "رز أبيض",
+      "name_en": "White Rice",
+      "price": 6,
+      "category": "sides",
+      "description_ar": "أرز بسمتي أبيض مفلفل، يُطهى على البخار ليحافظ على حبوبه المنفصلة وطعمه الناعم."
+    },
+    {
+      "id": "sid_005",
+      "name_ar": "رز معمر",
+      "name_en": "Spiced Rice",
+      "price": 9,
+      "category": "sides",
+      "description_ar": "أرز بسمتي مع توابل عربية مختارة مثل القرفة والهيل، يضيف نكهة غنية ومميزة."
+    },
+    {
+      "id": "sid_006",
+      "name_ar": "صوص خاص",
+      "name_en": "Special Sauce",
+      "price": 5,
+      "category": "sides",
+      "description_ar": "صوص سري من مطعم البيت العربي، مزيج من الثوم، الزعتر، والليمون يرفع نكهة أي طبق."
+    },
+    {
+      "id": "sid_007",
+      "name_ar": "مايونيز",
+      "name_en": "Mayonnaise",
+      "price": 5,
+      "category": "sides",
+      "description_ar": "مايونيز كريمية غنية، مثالية لتغميس البطاطس أو إضافة لمسة ناعمة للساندويتشات."
+    },
+    {
+      "id": "sid_008",
+      "name_ar": "خردل",
+      "name_en": "Mustard",
+      "price": 5,
+      "category": "sides",
+      "description_ar": "خردل حاد قليل الملوحة، يضيف نكهة مميزة للبرجر والسلطات."
+    },
+    {
+      "id": "sid_009",
+      "name_ar": "بطاطس",
+      "name_en": "Potatoes",
+      "price": 7,
+      "category": "sides",
+      "description_ar": "بطاطس مسلوقة ومقطعة مكعبات، تُقدم مع رشة ملح وزيت زيتون."
+    },
+    {
+      "id": "sid_010",
+      "name_ar": "بطاطس مقلية",
+      "name_en": "French Fries",
+      "price": 10,
+      "category": "sides",
+      "description_ar": "بطاطس مقطعة على شكل أعواد ومقلية حتى تصبح مقرمشة، تُقدم مع صوص خاص أو مايونيز."
+    },
+    {
+      "id": "sid_011",
+      "name_ar": "خبز",
+      "name_en": "Bread",
+      "price": 6,
+      "category": "sides",
+      "description_ar": "خبز عربي طازج مخبوز يوميًا، ناعم من الداخل ومقرمش من الخارج."
+    },
+    {
+      "id": "sid_012",
+      "name_ar": "خبز بالثوم",
+      "name_en": "Garlic Bread",
+      "price": 8,
+      "category": "sides",
+      "description_ar": "خبز عربي مدهون بزبدة الثوم والأعشاب، يُحمص حتى يصبح ذهبيًا ومقرمشًا."
+    },
+    {
+      "id": "sid_013",
+      "name_ar": "جبنة إضافية",
+      "name_en": "Extra Cheese",
+      "price": 7,
+      "category": "sides",
+      "description_ar": "جبنة شيدر أو موزاريلا مبشورة تُضاف فوق أي طبق لإضفاء طعم غني ودسم."
+    },
+    {
+      "id": "sid_014",
+      "name_ar": "جبنة شيدر",
+      "name_en": "Cheddar Cheese",
+      "price": 9,
+      "category": "sides",
+      "description_ar": "شرائح جبنة شيدر ناضجة، تُذوب بسهولة وتضيف نكهة حادة ومحببة."
+    },
+    {
+      "id": "sid_015",
+      "name_ar": "صلصة حارة",
+      "name_en": "Spicy Sauce",
+      "price": 6,
+      "category": "sides",
+      "description_ar": "صلصة حارة من الفلفل الأحمر مع لمسة من الثوم والخل، مثالية لمحبي النكهة القوية."
+    },
+    {
+      "id": "main_101",
+      "name_ar": "شاورما دجاج",
+      "name_en": "Chicken Shawarma",
+      "price": 25,
+      "category": "main_dishes",
+      "description_ar": "شاورما دجاج مشوية على الفحم مع خبز عربي وصلصة الثوم. تقدم مع مخلل وبطاطس"
+    },
+    {
+      "id": "main_102",
+      "name_ar": "شاورما لحم",
+      "name_en": "Beef Shawarma",
+      "price": 30,
+      "category": "main_dishes",
+      "description_ar": "شاورما لحم بقري طازجة مع خبز صاج وصلصة طحينة. تقدم مع سلطة وبطاطس"
+    },
+    {
+      "id": "main_103",
+      "name_ar": "بيتزا لحم بالجبن",
+      "name_en": "Meat Pizza with Cheese",
+      "price": 45,
+      "category": "main_dishes",
+      "description_ar": "بيتزا إيطالية بعجينة طازجة مع لحم مفروم وجبن موزاريلا وصلصة طماطم"
+    },
+    {
+      "id": "main_104",
+      "name_ar": "بيتزا دجاج",
+      "name_en": "Chicken Pizza",
+      "price": 42,
+      "category": "main_dishes",
+      "description_ar": "بيتزا بقطع الدجاج المشوي والفلفل والبصل مع جبن موزاريلا"
+    },
+    {
+      "id": "main_105",
+      "name_ar": "بيتزا مارغريتا",
+      "name_en": "Margherita Pizza",
+      "price": 35,
+      "category": "main_dishes",
+      "description_ar": "بيتزا كلاسيكية بالطماطم والجبن والريحان الطازج"
+    }
+  ],
+  "categories": [
+    {
+      "id": "main_dishes",
+      "name_ar": "الأطباق الرئيسية"
+    },
+    {
+      "id": "appetizers",
+      "name_ar": "المقبلات"
+    },
+    {
+      "id": "beverages",
+      "name_ar": "المشروبات"
+    },
+    {
+      "id": "desserts",
+      "name_ar": "الحلويات"
+    },
+    {
+      "id": "sides",
+      "name_ar": "الإضافات"
+    }
+  ]
+}
